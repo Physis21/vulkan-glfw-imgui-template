@@ -6,6 +6,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(imgui_example_glfw_vulkan C CXX)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Debug CACHE STRING "" FORCE)
 endif()
