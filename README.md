@@ -10,6 +10,11 @@ In short, this template allows for the creation of graphical user interfaces (GU
 
 To include them, I added GLFW as a git submodule, and just manually added the ImGui files from the `docking` branch.
 
+To clone the submodule as well when cloning this repository, use the command
+```
+git clone --recursive https://github.com/Physis21/vulkan-glfw-imgui-template
+```
+
 ## About the 3rd party libraries in `vendor/`
 
 - (**not included**) [OpenGL3](https://en.wikipedia.org/wiki/OpenGL) (Open Graphics Library) is an API used to render 2D or 3D graphics. It directly talks to the GPU.
