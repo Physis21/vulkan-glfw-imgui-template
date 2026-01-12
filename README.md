@@ -40,7 +40,7 @@ cmake --build build
 3. To run the generated binary file, run:
 
 ```bash
-build/example_glfw_vulkan
+./build/example_glfw_vulkan
 ```
 
 Instead, you could sequentially run the `configure.sh`, `build.sh` and `run.sh` bash scripts.
